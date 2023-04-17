@@ -1,0 +1,12 @@
+name: "Greeting App"
+description: "An app that greets your customers when a trade begins. "
+features:
+  - Authentication
+  - Webhook
+endpoints:
+  - trade-chat/post
+  - trade/get
+image: "greeting_icon"
+version: "0.1.0"
+slug: greeting_app
+app_type: "DIRECT"

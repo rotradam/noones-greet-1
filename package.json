@@ -1,0 +1,24 @@
+{
+  "name": "autogreeting-js",
+  "version": "0.1.0",
+  "description": "Demo application showing how to automatically greet a customer when a trade is started",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@paxful/sdk-js": "^0.6.8",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "proper-lockfile": "^4.1.2",
+    "tweetnacl": "^1.0.3",
+    "simple-oauth2": "^4.3.0",
+    "axios": "^0.26.1"
+
+  },
+  "devDependencies": {
+    "jest": "^27.4.3",
+    "jest-mock": "^27.4.2"
+  }
+}
